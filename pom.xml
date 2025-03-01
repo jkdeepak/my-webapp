@@ -34,4 +34,23 @@
         <finalName>my-webapp</finalName>
     </build>
 </project>
+    
 
+    <build>
+	<plugins>
+		<plugin>
+    		<groupId>org.codehaus.mojo</groupId>
+   		 <artifactId>cobertura-maven-plugin</artifactId>
+   		 <version>2.7</version>
+    		<executions>
+       			<execution>
+            			<goals>
+                			<goal>cobertura</goal>
+           			</goals>
+       			</execution>
+    		</executions>
+		</plugin>
+	</plugins>
+        <finalName>my-webapp</finalName>
+    </build>
+</project>
