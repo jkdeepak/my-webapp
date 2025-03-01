@@ -43,6 +43,10 @@
            			</goals>
        			</execution>
     		</executions>
+             <configuration>
+        <!-- Prevents Cobertura from using tools.jar -->
+        <skip>true</skip>
+    </configuration>
 		</plugin>
 	</plugins>
         <finalName>my-webapp</finalName>
