@@ -31,12 +31,6 @@
     </dependencies>
 
     <build>
-        <finalName>my-webapp</finalName>
-    </build>
-</project>
-    
-
-    <build>
 	<plugins>
 		<plugin>
     		<groupId>org.codehaus.mojo</groupId>
